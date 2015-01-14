@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.parse.ParseImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/tool_image"
+        android:src="@drawable/ic_add_image"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_name"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:hint="name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tool_tags"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:hint="tags" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tool_desc"
+        android:lines="3"
+        android:inputType="textMultiLine"
+        android:imeOptions="actionNext"
+        android:nextFocusDown="@+id/tool_tags"
+        android:hint="description" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Item"
+        android:id="@+id/post_data_button"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
