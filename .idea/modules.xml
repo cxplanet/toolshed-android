@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Parse-1.8.0/Parse-1.8.0.iml" filepath="$PROJECT_DIR$/Parse-1.8.0/Parse-1.8.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/Toolshed.iml" filepath="$PROJECT_DIR$/Toolshed.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toolshed-android.iml" filepath="$PROJECT_DIR$/toolshed-android.iml" />
     </modules>
   </component>
 </project>
