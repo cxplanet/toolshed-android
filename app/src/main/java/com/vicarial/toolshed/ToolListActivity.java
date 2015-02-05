@@ -38,32 +38,6 @@ public class ToolListActivity extends ListActivity {
         return true;
     }
 
-    /*
-     * Posting meals and refreshing the list will be controlled from the Action
-     * Bar.
-     */
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-
-            case R.id.action_refresh: {
-                updateToolList();
-                break;
-            }
-
-            case R.id.action_favorites: {
-                showRequested();
-                break;
-            }
-
-            case R.id.action_new: {
-                newTool();
-                break;
-            }
-        }
-        return super.onOptionsItemSelected(item);
-    }
-
     private void updateToolList() {
         mainAdapter.loadObjects();
         setListAdapter(mainAdapter);

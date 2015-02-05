@@ -36,6 +36,7 @@ import android.view.Window;
 
 import com.parse.Parse;
 import com.parse.ParseFacebookUtils;
+import com.vicarial.toolshed.MainActivity;
 import com.vicarial.toolshed.R;
 
 /**
@@ -117,6 +118,7 @@ public class ParseLoginActivity extends FragmentActivity implements
 
     // Required for making Facebook login work
     ParseFacebookUtils.finishAuthentication(requestCode, resultCode, data);
+      startActivity(new Intent(this, MainActivity.class));
   }
 
   /**

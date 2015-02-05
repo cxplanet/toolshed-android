@@ -7,7 +7,8 @@
         android:id="@+id/icon"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentLeft="true"
+        android:padding="5dip"/>
 
     <TextView
         android:id="@+id/tool_name"
@@ -16,14 +17,15 @@
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@id/icon"
         android:paddingLeft="3dip"
-        android:paddingRight="3dip" />
+        android:textStyle="bold"
+        android:textSize="15dp"/>
 
     <TextView
         android:id="@+id/tool_desc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tool_name"
-        android:layout_toRightOf="@+id/tool_name"
+        android:layout_toRightOf="@id/icon"
         android:paddingLeft="3dip"
         android:paddingRight="3dip" />
 

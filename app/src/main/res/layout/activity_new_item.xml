@@ -20,7 +20,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tool_tags"
+        android:id="@+id/item_tags"
         android:singleLine="true"
         android:imeOptions="actionNext"
         android:hint="tags" />
@@ -28,7 +28,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tool_desc"
+        android:id="@+id/item_desc"
         android:lines="3"
         android:inputType="textMultiLine"
         android:imeOptions="actionNext"

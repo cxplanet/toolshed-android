@@ -86,10 +86,10 @@ public class NewToolActivity2 extends Activity {
         // Begin with main data entry view,
         // NewMealFragment
         setContentView(R.layout.activity_new_item);
-        toolName = ((EditText) findViewById(R.id.tool_name));
-        toolDesc = ((EditText) findViewById(R.id.tool_desc));
+        toolName = ((EditText) findViewById(R.id.item_name));
+        toolDesc = ((EditText) findViewById(R.id.item_desc));
         toolDesc.setOnEditorActionListener(multiLineListener);
-        toolTags = ((EditText) findViewById(R.id.tool_tags));
+        toolTags = ((EditText) findViewById(R.id.item_tags));
 
         addItemButton = ((Button) findViewById(R.id.post_data_button));
         addItemButton.setOnClickListener(new View.OnClickListener() {

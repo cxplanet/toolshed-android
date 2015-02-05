@@ -33,10 +33,7 @@
         </activity>
         <activity android:name=".MainActivity"
             android:label="Toolshed"
-            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
-        </activity>
-        <activity android:name=".NewToolActivity"
-            android:label="New Item">
+            android:theme="@style/AppCompatTheme">
         </activity>
         <activity android:name=".ToolListActivity"
             android:label="My Stuff">

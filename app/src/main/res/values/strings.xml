@@ -79,5 +79,15 @@
     <string name="need_perms_alert_text">In order to pick your friends you need to accept all the permissions on the following page.</string>
     <string name="need_perms_alert_button_ok">OK</string>
     <string name="need_perms_alert_button_quit">Quit</string>
+    <string name="action_logout">Logout</string>
+
+    <string-array name="nav_menu_items">
+        <item>My Stuff</item>
+        <item>Add Item</item>
+        <item>Friends</item>
+        <item>Requests</item>
+        <item>My Profile</item>
+        <item>Logout</item>
+    </string-array>
 
 </resources>

@@ -1,5 +1,16 @@
 <resources>
 
+    <style name="AppCompatTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#6183A6</item>
+        <item name="colorPrimaryDark">#36648b</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
     <style name="ParseLoginUI" />
 
     <style name="ParseLoginUI.Button" parent="@android:style/Widget.Button">
